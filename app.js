@@ -12,7 +12,6 @@ const sounds = {
     
 }
 
-
 function on_keypress(event){
     sounds[event.which].play()
     console.log(event.which)
